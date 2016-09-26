@@ -65,13 +65,13 @@
 				E4C4D8E31D93F62B00EED62F /* AppDelegate.m */,
 				E4C4D8E51D93F62B00EED62F /* ViewController.h */,
 				E4C4D8E61D93F62B00EED62F /* ViewController.m */,
+				E4C4D8F61D93F67F00EED62F /* MenuView.h */,
+				E4C4D8F71D93F67F00EED62F /* MenuView.m */,
 				E4C4D8E81D93F62B00EED62F /* Main.storyboard */,
 				E4C4D8EB1D93F62C00EED62F /* Assets.xcassets */,
 				E4C4D8ED1D93F62C00EED62F /* LaunchScreen.storyboard */,
 				E4C4D8F01D93F62C00EED62F /* Info.plist */,
 				E4C4D8DF1D93F62B00EED62F /* Supporting Files */,
-				E4C4D8F61D93F67F00EED62F /* MenuView.h */,
-				E4C4D8F71D93F67F00EED62F /* MenuView.m */,
 			);
 			path = AssociateMenuView;
 			sourceTree = "<group>";
@@ -308,6 +308,7 @@
 				E4C4D8F51D93F62C00EED62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
