@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define kTitleWidth self.frame.size.width / topButtonArray.count
+#define kTitleHeight 30
+#define kTableHeight 200
+
 typedef void (^tableFinishedClickBlock)(NSMutableArray *); // 定义block用于外部回调
 
 @interface MenuView : UIView
