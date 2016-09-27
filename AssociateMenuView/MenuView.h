@@ -12,9 +12,11 @@
 #define kTitleHeight 30
 #define kTableHeight 200
 
-typedef void (^tableFinishedClickBlock)(NSMutableArray *); // 定义block用于外部回调
+typedef void (^tableFinishedClickBlock)(NSString *); // 定义block用于外部回调,可以传任意参数
 
 @interface MenuView : UIView
+
+@property (nonatomic, strong) tableFinishedClickBlock updateBlock;
 
 // 设置菜单数据
 - (void)setMenuTitle:(NSArray *)titleArray withTableData:(NSArray *)tableData;
